@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Wedding Of Ayu & Ruis</title>
+
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+
+  <!-- CSS KAMU -->
+  <link rel="stylesheet" href="style.css">
+
+<!--font awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- Aos -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<script src="gallery-scroll.js"></script>
+
+<script src="scroll-zoom.js"></script>
+
+<script src="gift.js"></script>
+
+</head>
+
+<body>
+
+
+
+<section class="cover">
+
+<video id="coverVideo" muted playsinline poster="assets/gallery/cover.jpeg">
+<source src="assets/video/video.mp4" type="video/mp4">
+</video>
+<div class="overlay" id="overlay">
+
+<h3>The Wedding Of</h3>
+<h1>Ayu & Ruis</h1>
+
+<p id="namaTamu">Kepada Yth.</p>
+
+<button id="btnBuka">Buka Undangan</button>
+
+<span class="scroll" id="scrollText">
+<i class="fa-solid fa-chevron-down"></i><br>
+Geser ke bawah
+</span>
+
+</div>
+
+</section>
+
+
+<!-- NAVBAR ICON -->
+<nav id="navbar" class="nav-icon">
+  <a href="#countdown"><i class="fa-solid fa-hourglass"></i></a>
+  <a href="#ayat"><i class="fa-solid fa-book-quran"></i></a>
+  <a href="#mempelai"><i class="fa-solid fa-user-group"></i></a>
+  <a href="#lokasi"><i class="fa-solid fa-location-dot"></i></a>
+  <a href="#" id="btnMusic"><i class="fa-solid fa-music"></i></a>
+  <a href="#story"><i class="fa-solid fa-heart"></i></a>
+  <a href="#gallery"><i class="fa-solid fa-image"></i></a>
+  <a href="#gift"><i class="fa-solid fa-gift"></i></a>
+  <a href="#rsvp"><i class="fa-solid fa-envelope"></i></a>
+</nav>
+
+<section id="ayat" class="ayat-section">
+
+<div class="ayat-container" data-aos="zoom-in">
+
+<p class="ayat-text">
+"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu
+pasangan dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram
+kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang."
+</p>
+
+<p class="sumber">
+QS. Ar-Rum : 21
+</p>
+
+</div>
+
+</section>
+
+
+<!-- INFO MEMPELAI -->
+
+<section class="couple-section">
+
+  <div class="opening-text">
+    <p data-aos="fade-down">
+      <span class="salam">Assalamu’alaikum Warahmatullahi Wabarakatuh</span>
+    </p>
+    <p data-aos="fade-down" data-aos-delay="200">
+      Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan pernikahan putra-putri kami
+    </p>
+  </div>
+
+  <div class="container">
+
+    <!-- WANITA -->
+    <div class="couple-card">
+
+      <div class="image-wrapper">
+
+        <!-- AWAN -->
+        <img src="assets/gallery/awan.png" class="cloud-right" 
+        data-aos="zoom-in-ornamen">
+
+        <!-- BURUNG -->
+        <img src="assets/gallery/burung.png" class="bird-right"
+         data-aos="zoom-in-ornamen">
+
+        <!-- FOTO -->
+        <img src="assets/gallery/foto mempelai wanita.png"
+             class="photo-layer photo-left">
+
+        <!-- ORNAMEN (PAKAI WRAPPER 🔥) -->
+      
+          <img src="assets/gallery/ornamen mempelai wanita.png"
+               class="ornament-layer"
+          data-aos="zoom-in-ornamen">
+        </div>
+
+      </div>
+
+      <!-- TEXT -->
+      <div class="info">
+        <h3 data-aos="zoom-in" data-aos-delay="1000">Nama Putri</h3>
+        <p data-aos="zoom-in" data-aos-delay="1100">Putri dari Bapak & Ibu ...</p>
+        <a href="#" class="ig-link" data-aos="zoom-in" data-aos-delay="1200">@username</a>
+      </div>
+
+    </div>
+
+    <!-- & -->
+    <div class="divider" data-aos="zoom-in" data-aos-delay="700">&</div>
+
+    <!-- PRIA -->
+    <div class="couple-card">
+
+      <div class="image-wrapper">
+
+        <!-- AWAN -->
+        <img src="assets/gallery/awan.png" class="cloud-left"
+        data-aos="zoom-in-ornamen">
+
+        <!-- BURUNG -->
+        <img src="assets/gallery/burung kiri.png" class="bird-left"
+         data-aos="zoom-in-ornamen">
+
+        <!-- FOTO -->
+        <img src="assets/gallery/foto mempelai pria.png"
+             class="photo-layer photo-right">
+
+        <!-- ORNAMEN -->
+          <img src="assets/gallery/ornamen mempelai pria.png"
+               class="ornament-layer"
+         data-aos="zoom-in-ornamen">
+        </div>
+
+
+      <!-- TEXT -->
+      <div class="info">
+        <h3 data-aos="zoom-in" data-aos-delay="1000">Nama Putra</h3>
+        <p data-aos="zoom-in" data-aos-delay="1100">Putra dari Bapak & Ibu ...</p>
+        <a href="#" class="ig-link" data-aos="zoom-in" data-aos-delay="1200">@username</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- SECTION AKAD & RESEPSI -->
+<section class="event-section">
+
+    <h2 class="section-title">Acara Pernikahan</h2>
+
+    <div class="event-container">
+
+        <!-- AKAD -->
+        <div class="event-card">
+
+<!-- ORNAMEN -->
+            <img src="assets/gallery/bunga akad.png" class="ornamen top-left">
+            <img src="assets/gallery/bunga akad.png" class="ornamen top-right">
+            <img src="assets/gallery/bunga akad.png" class="ornamen bottom-left">
+            <img src="assets/gallery/bunga akad.png" class="ornamen bottom-right">
+
+            <h3>Akad Nikah</h3>
+            <p><strong>Hari/Tanggal:</strong><br> Minggu, 10 Mei 2026</p>
+            <p><strong>Pukul:</strong><br> 08.00 WIB</p>
+            <p><strong>Alamat:</strong><br> Jl. Contoh Alamat No.123</p>
+
+            <a href="https://maps.google.com" target="_blank" class="btn-maps">
+                Lihat Lokasi
+            </a>
+        </div>
+
+        <!-- RESEPSI -->
+        <div class="event-card">
+
+<!-- ORNAMEN -->
+            <img src="assets/gallery/bunga akad.png" class="ornamen top-left">
+            <img src="assets/gallery/bunga akad.png" class="ornamen top-right">
+            <img src="assets/gallery/bunga akad.png" class="ornamen bottom-left">
+            <img src="assets/gallery/bunga akad.png" class="ornamen bottom-right">
+
+            <h3>Resepsi</h3>
+            <p><strong>Hari/Tanggal:</strong><br> Minggu, 10 Mei 2026</p>
+            <p><strong>Pukul:</strong><br> 10.00 WIB - Selesai</p>
+            <p><strong>Alamat:</strong><br> Jl. Contoh Alamat No.123</p>
+
+            <a href="https://maps.google.com" target="_blank" class="btn-maps">
+                Lihat Lokasi
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- LOVE STORY -->
+<section class="love-story-section">
+
+<!-- BULAN -->
+<img src="assets/gallery/bulan love story.png" class="ornamen bulan kiri">
+
+<!-- BUNGA -->
+<img src="assets/gallery/bunga love story.png" class="ornamen bunga kanan">
+
+  <!-- Background blur -->
+  <div class="bg-blur"></div>
+
+  <div class="love-container">
+
+    <h2 class="title" data-aos="zoom-in">Love Story</h2>
+
+    <!-- FOTO PERSEGI -->
+    <div class="love-image" data-aos="zoom-in" data-aos-delay="100">
+      <img src="assets/gallery/foto love story.jpeg" alt="Love Story">
+    </div>
+
+    <!-- CERITA -->
+    <div class="story-item" data-aos="zoom-in" data-aos-delay="200">
+      <h4>Awal Bertemu</h4>
+      <p>Kami dipertemukan dalam momen sederhana yang tak pernah kami duga.</p>
+    </div>
+
+    <div class="story-item" data-aos="zoom-in" data-aos-delay="300">
+      <h4>Menjalin Hubungan</h4>
+      <p>Seiring waktu, kami mulai saling mengenal dan tumbuh bersama.</p>
+    </div>
+
+    <div class="story-item" data-aos="zoom-in" data-aos-delay="400">
+      <h4>Menuju Pernikahan</h4>
+      <p>Dengan penuh keyakinan, kami melangkah ke jenjang yang lebih serius.</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- OUR GALLERY -->
+<section class="gallery-section">
+
+  <div class="gallery-container">
+
+    <h2 class="gallery-title" data-aos="zoom-in">Our Gallery</h2>
+
+    <!-- VIDEO -->
+    <div class="gallery-video" data-aos="zoom-in" data-aos-delay="100">
+      <video src="assets/gallery/video.mp4" controls></video>
+    </div>
+
+    <!-- FOTO GRID -->
+  <div class="gallery-grid">
+
+  <img src="assets/gallery/1.jpg" class="square" data-aos="zoom-in">
+  <img src="assets/gallery/2.jpg" class="tall" data-aos="zoom-in">
+  <img src="assets/gallery/3.jpg" class="square" data-aos="zoom-in">
+  <img src="assets/gallery/4.jpg" class="wide" data-aos="zoom-in">
+  <img src="assets/gallery/5.jpg" class="square" data-aos="zoom-in">
+  <img src="assets/gallery/6.jpg" class="tall" data-aos="zoom-in">
+  <img src="assets/gallery/7.jpg" class="square" data-aos="zoom-in">
+  <img src="assets/gallery/8.jpg" class="square" data-aos="zoom-in">
+  <img src="assets/gallery/9.jpg" class="wide" data-aos="zoom-in">
+  <img src="assets/gallery/10.jpg" class="square" data-aos="zoom-in">
+
+</div>
+  </div>
+
+</section>
+
+
+
+<!-- WEDDING GIFT -->
+<!-- GIFT -->
+<section id="gift">
+  <div class="gift-overlay"></div>
+
+  <h2 class="gift-title-line" data-aos="zoom-in">
+    <span class="line"></span>
+    Wedding Gift
+    <span class="line"></span>
+  </h2>
+
+  <p class="gift-desc" data-aos="zoom-in" data-aos-delay="100">
+    Doa restu Anda merupakan karunia terindah bagi kami.<br>
+    Namun apabila ingin memberikan tanda kasih, dapat melalui:
+  </p>
+
+  <button id="btnGift" class="gift-btn" data-aos="zoom-in" data-aos-delay="200">
+    🎁 Kirim Hadiah
+  </button>
+
+  <!-- FULL SCREEN CONTENT -->
+  <div id="giftContent" class="gift-content">
+
+    <button id="closeGift" class="gift-close">✕</button>
+
+    <!-- REKENING 1 -->
+   <div class="gift-card">
+  <img src="assets/gallery/atm1.png">
+  <div class="gift-info">
+    <h4>BCA</h4>
+    <p>1234567890</p>
+    <span>a.n Ayu Yuningsih</span>
+
+    <div class="gift-actions">
+      <button class="btn-copy" data-rek="1234567890">Salin</button>
+      <a href="#" class="btn-wa"
+         data-bank="BCA"
+         data-norek="1234567890"
+         data-nama="Ayu Yuningsih">
+         Konfirmasi
+      </a>
+    </div>
+  </div>
+</div>
+
+    <!-- REKENING 2 -->
+  <div class="gift-card">
+  <img src="assets/gallery/atm2.png">
+  <div class="gift-info">
+    <h4>BRI</h4>
+    <p>0987654321</p>
+    <span>a.n Ruis</span>
+
+    <div class="gift-actions">
+      <button class="btn-copy" data-rek="0987654321">Salin</button>
+      <a href="#" class="btn-wa"
+         data-bank="BRI"
+         data-norek="0987654321"
+         data-nama="Ruis">
+         Konfirmasi
+      </a>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+<!-- RSVP -->
+<section id="rsvp" class="rsvp-section">
+
+  <div class="rsvp-container" data-aos="fade-up">
+    <h2 class="rsvp-title">RSVP</h2>
+    <p class="rsvp-desc">
+      Mohon konfirmasi kehadiran Anda untuk memudahkan kami dalam persiapan acara.
+    </p>
+
+    <!-- FORM -->
+    <form id="rsvpForm">
+      <input type="text" id="nama" placeholder="Nama Anda" required>
+      
+      <select id="kehadiran" required>
+        <option value="">Konfirmasi Kehadiran</option>
+        <option value="Hadir">Hadir</option>
+        <option value="Tidak Hadir">Tidak Hadir</option>
+      </select>
+
+      <textarea id="ucapan" placeholder="Ucapan & Doa"></textarea>
+
+      <button type="submit">Kirim</button>
+    </form>
+
+    <!-- LIST UCAPAN -->
+    <div class="ucapan-list" id="ucapanList"></div>
+
+  </div>
+
+</section>
+
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS KAMU -->
+  <script src="script.js"></script>
+
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 900,
+    once: true
+  });
+</script>
+<script src="rsvp.js"></script>
+</body>
+</html>
